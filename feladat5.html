@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5. Feladat</title>
+</head>
+<body>
+    <section>
+        <label for="aha">Teljes név</label>
+        <input type="text" id="nev">
+    </section>
+    <br>
+    <section>
+        <label for="aha">Telefonszám</label>
+        <input type="number" id="telo">
+    </section>
+    <br>
+    <section>
+        <label for="aha">Irányítószám</label>
+        <input type="number" id="irszam">
+    </section>
+    <br>
+    <section>
+        <label for="aha">Város</label>
+        <input type="text" id="varos">
+    </section>
+    <br>
+    <section>
+        <label for="aha">Utca</label>
+        <input type="text" id="utca">
+    </section>
+    <br>
+    <section>
+        <label for="aha">Házszám</label>
+        <input type="number" id="haz">
+    </section>
+    <br>
+    <label for="aha">Alap:</label>
+    <select name="alap" id="pizza1">
+        <option value="tejfel">Tejfölös alap</option>
+        <option value="paradicsom">Paradicsomos alap</option>
+    </select>
+    <label for="aha">Feltét:</label>
+    <select name="feltet" id="pizza2">
+        <option value="sonka">Sonka</option>
+        <option value="kukorica">Kukorica</option>
+        <option value="szalami">Szalámi</option>
+        <option value="gomba">Gomba</option>
+        <option value="hal">Hal</option>
+    </select>
+    <br>
+    <br>
+    <label for="name">Egyéb:</label>
+    <input type="text" id="egyeb" placeholder="Megjegyzés" name="name" size="100" id="blabla">
+    <br>
+    <br>
+    <button onclick="aha()">felvétel</button>
+</body>
+</html>
